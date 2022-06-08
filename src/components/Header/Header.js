@@ -4,9 +4,9 @@ import {TbArrowsRandom} from "react-icons/tb"
 export default function Header(props) {
     return (
         <HeaderStyled>
-
-            <button onClick={props.random}>random</button>
-            <TbArrowsRandom size={22}/>
+            <div className='container'>
+                <TbArrowsRandom onClick={props.random} size={22}/>
+            </div>
         </HeaderStyled>
     )
 }
