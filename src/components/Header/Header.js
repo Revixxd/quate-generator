@@ -1,11 +1,12 @@
 import React from 'react'
 import { HeaderStyled } from './headerStyling'
-
-export default function Header() {
+import {TbArrowsRandom} from "react-icons/tb"
+export default function Header(props) {
     return (
         <HeaderStyled>
 
-            <h4>random</h4>
+            <button onClick={props.random}>random</button>
+            <TbArrowsRandom size={22}/>
         </HeaderStyled>
     )
 }
