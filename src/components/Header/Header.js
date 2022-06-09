@@ -5,7 +5,8 @@ export default function Header(props) {
     return (
         <HeaderStyled>
             <div className='container'>
-                <TbArrowsRandom onClick={props.random} size={22}/>
+                <h5>random</h5>
+                <TbArrowsRandom className='button' onClick={props.random} size={18}/>
             </div>
         </HeaderStyled>
     )

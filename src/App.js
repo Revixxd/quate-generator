@@ -9,9 +9,8 @@ function App() {
 
   const [curretQuoteInfos, setCurrentQuoteInfos] = React.useState({
     id: "1",
-    quoteText: "test",
-    quoteAuthor: "test",
-    quoteGenre: "test",
+    quoteText: "The way to get started is to quit talking and begin doing.",
+    quoteAuthor: "Walt Disney",
   })
   const [allQuotes, setCurrentQuotes] = React.useState([])
 
