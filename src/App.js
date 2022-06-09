@@ -5,6 +5,8 @@ import Header from "./components/Header/Header.js"
 import MainContent from "./components/MainContent/MainContent.js"
 import Footer from "./components/Footer/Footer.js"
 
+import Zoom from 'react-reveal/Zoom';
+
 function App() {
 
   const [curretQuoteInfos, setCurrentQuoteInfos] = React.useState({
@@ -32,14 +34,14 @@ function App() {
       quoteAuthor: quoteAuthor,
     })
 
-
+    
   }
   return (
     <>
       <GlobalStyles/>
       <div className="app">
         <Header random={loadNewQuote}/>
-        <MainContent data = {curretQuoteInfos}/>
+          <MainContent data = {curretQuoteInfos}/>
         <Footer />
       </div>
     </>

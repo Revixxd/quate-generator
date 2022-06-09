@@ -19,4 +19,5 @@ export const HeaderStyled = styled.header`
     svg{
         cursor: pointer;
     }
+
 `
